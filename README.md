@@ -22,3 +22,5 @@ int adjacent = triangle[row][col] + solve(triangle, row+1, col+1);
 
 return min(down, adjacent);
 ```
+
+<h5> Time complexity: O(2^n) || Ideally this question will fail it's test case since DP would reduce it. </h5>
